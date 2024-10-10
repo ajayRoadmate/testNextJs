@@ -1,0 +1,48 @@
+
+
+.item{
+    background-color: #f6f9be;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.itemActive{
+    background-color: #fbff90;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.itemActive .leftSection {
+    width: 0.5rem;
+    background-color: rgb(221, 214, 10);
+}
+
+.leftSection{
+    /* background-color: #30e02d; */
+    height: 3rem;
+    width: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+
+
+.rightSection{
+    color: #000;
+    /* background-color: #1b9527; */
+    height: 3rem;
+    width: 11rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 4rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* justify-content: center; */
+}
